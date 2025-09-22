@@ -10,7 +10,7 @@ from tensorflow.keras.models import load_model
 app = Flask(__name__)
 
 # Load trained model
-model = load_model("/Users/prayagadage/Desktop/Python_By_CJC/Prayag_py_projects/Handwriting_Recognition/mnist_cnn_model.h5")
+model = load_model("mnist_cnn_model.h5")
 
 # Preprocess function
 def preprocess_image(image):
