@@ -1,7 +1,6 @@
 __pycache__/
 *.pyc
 *.pyo
-*.h5
 *.keras
 *.env
 .HWR/
